@@ -1,4 +1,4 @@
-import React, { useState, useEffect,Suspense } from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import { makeStyles, useTheme } from '@material-ui/styles';
@@ -6,8 +6,6 @@ import { Avatar, useMediaQuery } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 import { urlProv,urlKab,urlKec,urlKel,urlRw,urlRt,urlGetVuser } from 'kumpulanUrl';
 import { Sidebar, Topbar, Footer, ImportScript } from './components';
-import  '../../../src/assets/vendor/bootstrap/css/bootstrap.min.css';
-
 /*
 import '../../../src/assets/vendor/bootstrap/css/bootstrap.min.css';
 import '../../../src/assets/vendor/dist/font-awesome-4.1.0/css/font-awesome.css';
@@ -35,7 +33,7 @@ const useStyles=makeStyles(theme => ({
     height: '100%'
   }*/
 }));
-const loading = () => <div className="animated fadeIn pt-1 text-center">Loading...</div>
+
 const Main=props => {
   const { children,rowSelect }=props;
 
@@ -153,10 +151,7 @@ const Main=props => {
       <div class="content-wrapper">
         <div class="container">
           <main id="main">
-          {console.log(children.props.location.pathname,"children")}
-          <Suspense fallback={loading()}>
            {children}
-           </Suspense>
 
           </main>
         </div>
