@@ -92,12 +92,7 @@ const Routes = () => {
         to="/login"
       />}
 
-<RouteWithLayout
-        component={HomeView}
-        exact
-        layout={MainLayout}
-        path="/home"
-      />
+
       <RouteWithLayout
         component={SettingListView}
         exact
