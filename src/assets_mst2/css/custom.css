@@ -1,0 +1,66 @@
+
+/* .skin-blue .layout-to-nav {
+    background: img(../img/bg-header.png) right top no-repeat;
+  } */
+  .skin-blue .main-header .navbar {
+    /* background-color: #3c8dbc; */
+    background: url(../img/bg-header.png) top right no-repeat #3c8dbc;
+    background-size: 50%;
+  }
+  .main-header .navbar-brand {
+    /* background: url(../img/bg_header-0.jpg) left center no-repeat;
+    background-size: 100%; */
+    background:rgba(255,255,255,.8);
+  }
+   
+.login-logo {
+    font-size: 20px;
+    padding: 20px 5px 10px 5px;
+    color: #3d3d3d;
+    background: rgba(255,255,255,.8);
+    margin-bottom: 1px;
+    border-radius: 0 20px 0 0;
+    width: 500px;
+}
+.login-box-body, .register-box-body {
+    background: rgba(255,255,255,.9);
+    padding: 30px;
+    border-radius:  0 0 0 20px;
+}
+.navbar-custom-menu > .navbar-nav > li > .dropdown-menu {
+    width: 180px;
+}
+.navbar-nav > .user-menu > .dropdown-menu > .user-footer {
+    width: 180px;
+    float: right;
+}
+
+.content-header > .breadcrumb {
+    float: left;
+    right: 0;
+    padding: 0 5px;
+    left: 15px;
+}
+
+.content {
+    padding-top: 5px;
+}
+.box {
+    padding: 15px;
+}
+.box-header .box-title {
+    font-size: 16px;
+}
+.control-label {
+    text-align: right;
+  }
+
+  label {
+    font-weight: normal;
+  }
+.main-footer {
+    background: #023557;
+     color: #ccc;
+     border-top: thin solid #c0c0c0;
+     text-align: center;
+}
