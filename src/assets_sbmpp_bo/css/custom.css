@@ -1,0 +1,47 @@
+.login-container {
+    background: url(../../assets/images/bg_login.jpg) bottom center no-repeat;
+    background-size: cover;
+}
+.login-form {
+    background: rgba(0,0,0,.2);
+    box-shadow: 0px 0px 30px;
+    border-radius: 20px;
+    top:20px;
+}
+/* .login-container .login-form {
+    width: 380px;
+} */
+.page-container {
+    position: relative;
+    top: 40px;
+}
+.navbar-inverse {
+    background: url(../../assets/images/bg_sidebar.jpg) top center no-repeat fixed;
+    background-size: cover;
+}
+.sidebar {
+    background: url(../../assets/images/bg_sidebar.jpg) center left no-repeat fixed;
+    background-size: cover;
+}
+.page-title {
+    padding: 20px 36px 20px 0;
+}
+.navigation > li.active > a, .navigation > li.active > a:hover, .navigation > li.active > a:focus {
+    background-color: #39f;
+}
+.heading-elements-left {
+    background-color: inherit;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    height: 36px;
+    margin-top: -18px;
+}
+.panel-body {
+    padding: 20px 10px;
+}
+.panel-body > .heading-elements-left {
+    top: 0;
+    margin-top: 14px;
+    z-index: 10;
+}

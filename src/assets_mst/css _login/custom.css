@@ -1,0 +1,16 @@
+.app {
+    background: url(/login/img/bg_login.jpg) no-repeat center center #37474F;
+    background-size: cover;
+}
+
+.card {
+    background-color: rgba(0,0,0,.1);
+    background-clip: border-box;
+    border: 1px solid rgba(255,255,255,.4);
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgba(0,0,0,.7);
+}
+.input-group .form-control {
+    border-radius: 50px;
+    padding: 10px 15px;
+}
