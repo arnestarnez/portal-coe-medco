@@ -82,7 +82,7 @@ const Routes = () => {
         to="/beranda"
       /> */}
 
-      {localStorage.getItem("username")/*1===1/**/ ? <Redirect
+      {localStorage.getItem("username")/1===1/*/ ? <Redirect
         exact
         from="/"
         to="/home"
@@ -92,7 +92,12 @@ const Routes = () => {
         to="/login"
       />}
 
-
+<RouteWithLayout
+        component={HomeView}
+        exact
+        layout={MainLayout}
+        path="/home"
+      />
       <RouteWithLayout
         component={SettingListView}
         exact
