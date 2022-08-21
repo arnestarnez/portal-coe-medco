@@ -41,38 +41,24 @@ import {
   ProvinsiList as ProvinsiListView,
   RtList as RtListView,
   RwList as RwListView,
-  VuserList as VuserListView,
-  LaporanKecamatan as LaporanKecamatanView,
-  LaporanPerKabupaten as LaporanPerKabupatenView,
-  LaporanPerKecamatan as LaporanPerKecamatanView,
-  LaporanProvID as LaporanProvIDView,
-  LaporanPerProv as LaporanPerProvView,
-  LaporanKelurahan as LaporanKelurahanView,
-  LaporanPerKelurahan as LaporanPerKelurahanView,
-  LaporanSensusPerKelurahan as LaporanSensusPerKelurahanView,
-  LaporanSensusPerKecamatan as LaporanSensusPerKecamatanView,
-  SettingList as SettingListView,
-  KelompokDataList as KelompokDataListView,
-  LaporanSensusIDList as LaporanSensusIDView,
-  TargetKkList as TargetKkListView,
-  LaporanSensusPerKab as LaporanSensusPerKabVIew,
-  LaporanSensusPerProv as LaporanSensusPerProvView,
 
 
   Profile as ProfileView,
-  UserAccessSurveyList as UserAccessSurveyListView,
-  LaporanTargetRealisasiID as LaporanTargetRealisasiIDView,
-  LaporanTargetRealisasiPerprov as LaporanTargetRealisasiPerprovView,
-  LaporanTargetRealisasiPerkab as LaporanTargetRealisasiPerkabView,
-  LaporanKbId as LaporanKbIdView,
-  LaporanKbPerProv as LaporanKbProvView,
-  LaporanKbPerkab as LaporanKbKabView,
 
 
 
 } from './views';
+//import {Technology as DashboardView} from './views/Pages/Dashboard/solution';
+//import {Solution} from './views/Pages/Prework/solution';
+const PreworkSolution = React.lazy(() => import('./views/Pages/Prework/solution'));
+const RegistrationSolution = React.lazy(() => import('./views/Pages/Registration/solution'));
+const DashboardSolution = React.lazy(() => import('./views/Pages/Dashboard/solution'));
+const EvaluationSolution = React.lazy(() => import('./views/Pages/Evaluation/solution'));
+const Execution = React.lazy(() => import('./views/Pages/Execution'));
+const TrackSolution = React.lazy(() => import('./views/Pages/Track/solution'));
 
 const Routes = () => {
+  
 //alert(localStorage.getItem("Username"))
   return (
     <Switch>
@@ -92,18 +78,17 @@ const Routes = () => {
         to="/login"
       />}
 
+
 <RouteWithLayout
         component={HomeView}
         exact
         layout={MainLayout}
         path="/home"
       />
-      <RouteWithLayout
-        component={SettingListView}
-        exact
-        layout={MainLayout}
-        path="/setting"
-      />
+
+
+
+
 
       <RouteWithLayout
         component={MiaClusterView}
@@ -146,6 +131,48 @@ const Routes = () => {
         path="/mia/award"
       />
 
+<RouteWithLayout
+        component={DashboardSolution}
+        exact
+        layout={MainLayout}
+        path="/dashboardTechnology"
+      />
+
+<RouteWithLayout
+        component={PreworkSolution}
+        exact
+        layout={MainLayout}
+        path="/prework"
+      />     
+
+      
+<RouteWithLayout
+        component={RegistrationSolution}
+        exact
+        layout={MainLayout}
+        path="/registration"
+      />
+ 
+ <RouteWithLayout
+        component={EvaluationSolution}
+        exact
+        layout={MainLayout}
+        path="/qualification"
+      />
+
+<RouteWithLayout
+        component={Execution}
+        exact
+        layout={MainLayout}
+        path="/execution"
+      />
+
+<RouteWithLayout
+        component={TrackSolution}
+        exact
+        layout={MainLayout}
+        path="/tracking"
+      />
 
       <RouteWithLayout
         component={SignInView}
