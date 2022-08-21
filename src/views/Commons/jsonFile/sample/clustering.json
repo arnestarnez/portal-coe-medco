@@ -1,0 +1,6 @@
+[
+    { "id": 1, "fullname": "Amir Santoso", "empId": "0001", "function": "function A", "discipline":"Mechanical",  "tittleAbs": "Test A", "descAbs":"", "typeNovelty":"New", "roi":"", "cost": "costA",  "hse":"hseA", "hsl":"hslA", "level":"Low","cluster":"A","gat1":"","assReviewer":"","status":"Pending","dtl1":"true" },
+    { "id": 2, "fullname": "Jhony Santoso", "empId": "0001", "function": "function A", "discipline":"Mechanical",  "tittleAbs": "Test B", "descAbs":"", "typeNovelty":"New", "roi":"", "cost": "costA",  "hse":"hseA", "hsl":"hslA", "level":"Low","cluster":"A","gat1":"","assReviewer":"","status":"Reject","dtl1":"true" },    
+    { "id": 3, "fullname": "Jhony Santoso", "empId": "0001", "function": "function A", "discipline":"Mechanical",  "tittleAbs": "Test C", "descAbs":"", "typeNovelty":"New", "roi":"", "cost": "costA",  "hse":"hseA", "hsl":"hslA", "level":"Low","cluster":"A","gat1":"","assReviewer":"","status":"Approve","dtl1":"true"},
+    { "id": 3, "fullname": "Jhony Santoso", "empId": "0001", "function": "function A", "discipline":"Mechanical",  "tittleAbs": "Test C", "descAbs":"", "typeNovelty":"New", "roi":"", "cost": "costA",  "hse":"hseA", "hsl":"hslA", "level":"Low","cluster":"A","gat1":"","assReviewer":"","status":"Review","dtl1":"true"}
+]

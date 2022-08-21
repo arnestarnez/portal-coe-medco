@@ -1,0 +1,11 @@
+[
+    {"label":"Electrical", "value":"Electrical"},
+    {"label":"Mechanical", "value":"Mechanical"},
+    {"label":"Instrument", "value":"Instrument"},
+    {"label":"Rotating", "value":"Rotating"},
+    {"label":"Static", "value":"Static"},
+    {"label":"Flow Assurance", "value":"Flow Assurance"},
+    {"label":"Process Eng", "value":"Process Eng"},
+    {"label":"Drilling", "value":"Drilling"},
+    {"label":"Well", "value":"Well"}
+]

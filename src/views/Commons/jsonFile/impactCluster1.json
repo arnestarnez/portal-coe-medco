@@ -1,0 +1,7 @@
+[
+    {"label":"Extremely High Impact", "value":">5M USD"},
+    {"label":"Very High Impact", "value":"1M-5M USD"},
+    {"label":"Moderate High Impact", "value":"500k-1M USD"},
+    {"label":"Moderate Impact", "value":"100k-500k USD"},
+    {"label":"Low Impact", "value":"<100k USD"}
+]

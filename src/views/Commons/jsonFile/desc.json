@@ -1,0 +1,12 @@
+[
+    {"no":1,"value":"To identify and collect data related to technology candidate  operating parameter application and compliance  with Medco operating parameter  - measurement unit of condition whose technology candidate have applied. Operating parameter included but not limited to : pressure, temperature, flow rate, liquid level, permeability, volumetric or other measurement units. Operating parameter is collected depend upon context of technology being assessed"},
+    {"no":2,"value":"To verify operating environment context i.e. in what condition/ equipment type/ process type/ arrangement/ does technology candidate applicable - learn from its past application (outside Medco) and to confront and conform with Medco operating environment context. Environment context term refers to any condition (what, where, how) technology candidate was applied."},
+    {"no":3,"value":"To verify and collect evidences upon technology candidate application history (evidence may included but not limited to empirical data, independent testing result, specification,  certificate from accredited board, recognition/ award from reputable oil and gas company or regulator/ government."},
+    {"no":4,"value":"To list potential failure mode and effect upon technology candidate application within current application context. Any mitigation plan (detection/ prevention/ prediction any potential failure  from occurrence). FMEA template might use to identify risk."},
+    {"no":5,"value":""},
+    {"no":6,"value":"Identify and collect data or information if technology candidate have potential threats and harm people, environment or asset if applied into Medco operating environment (if any)"},
+    {"no":7,"value":"Identify and recognize whether technology candidate have potential  out of budget limit (if any)"},
+    {"no":8,"value":"Identify and recognize whether technology candidate have legal aspects such as permits might not comply yet (if any)"},
+    {"no":9,"value":"Identify and recognize whether technology candidate have not addressed  management concerns ( drive innovation, any strategic value for business,  align with management current priority (if any)"},
+    {"no":10,"value":"Identify and recognize whether technology candidate have IS/ IT regulation, certificate, schedule might not comply yet (if any)"}
+]

@@ -1,0 +1,9 @@
+[
+    {"facility":"Belida","label":"Turbomachinery","value":"Turbomachinery"},
+    {"facility":"Kerisi","label":"Compressor","value":"Compressor"},
+    {"facility":"Belanak","label":"Compressor","value":"Compressor"},
+    {"facility":"Bawal","label":"Compressor","value":"Compressor"},
+    {"facility":"North Belut","label":"Turbomachinery","value":"Turbomachinery"},
+    {"facility":"South Belut","label":"Compressor","value":"Compressor"},
+    {"facility":"Tembang","label":"Turbomachinery","value":"Turbomachinery"}
+]

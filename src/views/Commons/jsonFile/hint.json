@@ -1,0 +1,12 @@
+[
+    {"no":1,"value":"§ Does technology have recommended operating parameter (minimum or maximum)? \n§ Does technology application need “specific controlled parameter”? \n§ Does technology have “specific skillset required”?"},
+    {"no":2,"value":"§ Does technology application environment similar to what Medco operating environment have? \n§ Does technology application need Medco to “largely” modify current operating condition? \n§ Does  technology candidate have “specific controlled condition or requirements”?"},
+    {"no":3,"value":"§ What are data or information to support past/ recent technology application results? \n§ How do we ensure with given data validity? \n§ Does  technology candidate have certificates or specified documents – as Medco needs or look for?"},
+    {"no":4,"value":"§ Does technology candidate have potential harm to people, environment or  Medco’s asset in general?"},
+    {"no":5,"value":""},
+    {"no":6,"value":"§ Does technology candidate have HSE aspect may not comply?"},
+    {"no":7,"value":"§ Does technology not surpass any limit (budget, regulation etc.)?"},
+    {"no":8,"value":"§ Does technology candidate have legal aspect may not comply?"},
+    {"no":9,"value":"§ Does technology address management perspective and concerns?"},
+    {"no":10,"value":"§ Does technology candidate have IS/ IT aspect may not comply?"}
+]

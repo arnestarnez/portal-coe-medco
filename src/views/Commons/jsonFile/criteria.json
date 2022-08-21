@@ -1,0 +1,13 @@
+[
+    {"name":"Engineering","value":"Life Cycle Cost"},
+    {"name":"Engineering","value":"Complexity of Implementation"},
+    {"name":"Engineering","value":"Troubleshooting Supports Availability"},
+    {"name":"Operations","value":"Complexity of Operation"},
+    {"name":"Operations","value":"Timeline Required of Implementation"},
+    {"name":"Operations","value":"Benefit/Monetization"},
+    {"name":"Safety","value":"Certificate Related Safety Availability"},
+    {"name":"General","value":"Company Reputation"},
+    {"name":"General","value":"Company Financial Position"},
+    {"name":"General","value":"Business Representative in Indonesia"},
+    {"name":"General","value":"Local Content Amount (TKDN)"}
+]
